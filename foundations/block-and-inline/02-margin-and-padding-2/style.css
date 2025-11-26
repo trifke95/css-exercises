@@ -6,11 +6,18 @@ body {
 .card {
   width: 400px;
   background: #fff;
+  margin: auto;
+  padding: 10px;
+}
+
+.card div {
   margin: 16px auto;
+  font-size: 16px;
 }
 
 .title {
   background: #e3f4ff;
+  padding: 10px;
 }
 
 .content {
@@ -21,7 +28,18 @@ body {
   background: #e3f4ff;
 }
 
+.button-container button,
+.button-container span {
+  width: 100px;
+  margin: auto;
+  display: block;
+  text-align: center;
+}
+
+
+
 button {
   background: white;
   border: 1px solid #eee;
 }
+
